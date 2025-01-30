@@ -7,3 +7,4 @@ After starting the lab we go to the stock change feature and capture the request
 ![](Labs/SSRF/images/6431effda94b18955eafaeab181fccf5_MD5.jpeg)
 
 
+hehwheadasdasda
