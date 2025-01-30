@@ -4,17 +4,15 @@ To solve the lab, change the stock check URL to access the admin interface at ht
 
 After starting the lab we go to the stock change feature and capture the request using burpsuite
 
-[[Labs/SSRF/images/71f747fda1063f4e34a5d3cf9c7da4f8_MD5.jpeg|Open: Pasted image 20250130223754.png]]
-![[Labs/SSRF/images/71f747fda1063f4e34a5d3cf9c7da4f8_MD5.jpeg]]
+![[Labs/SSRF/images/6431effda94b18955eafaeab181fccf5_MD5.jpeg]]
 
-We send the request to Repeater then at stockApi we paste http://localhost/admin
+We send the request to Repeater then at **stockApi** we paste http://localhost/admin
 
-[[Labs/SSRF/images/eb35045b5c3828c17d06524e6ddf6d4f_MD5.jpeg|Open: Pasted image 20250130224017.png]]
-![[Labs/SSRF/images/eb35045b5c3828c17d06524e6ddf6d4f_MD5.jpeg]]
+![[Labs/SSRF/images/84c4fd4698f43a56e4d5eb9266d136a4_MD5.jpeg]]
 
 then we send the request
-[[Labs/SSRF/images/ddf76d8d6b90a4903c49ee7bbe7cea5f_MD5.jpeg|Open: Pasted image 20250130224137.png]]
-![[Labs/SSRF/images/ddf76d8d6b90a4903c49ee7bbe7cea5f_MD5.jpeg]]
+
+![[Labs/SSRF/images/6689bc4b701e701448664aacc741e6d2_MD5.jpeg]]
 
 Now we will delete the user Carlos to do that at **stockApi** we will use this
 url:http://localhost/admin/delete?username=carlos
@@ -24,9 +22,7 @@ url:http://localhost/admin/delete?username=carlos
 
 Now we send the request and it will solve the lab
 
-[[Labs/SSRF/images/0669c0fe7d4a4e8ce9d5832b19b146ff_MD5.jpeg|Open: Pasted image 20250130224546.png]]
-![[Labs/SSRF/images/0669c0fe7d4a4e8ce9d5832b19b146ff_MD5.jpeg]]
+![[Labs/SSRF/images/8c1900636381d6d7bad37b2ecbace0c3_MD5.jpeg]]
 
 
-[[Labs/SSRF/images/9c90bc3a3b4fb1455aef8c45702ced34_MD5.jpeg|Open: Pasted image 20250130224608.png]]
-![[Labs/SSRF/images/9c90bc3a3b4fb1455aef8c45702ced34_MD5.jpeg]]
+![[Labs/SSRF/images/49434c33fcf20c5414d34f9c0a80b772_MD5.jpeg]]
